@@ -10,7 +10,7 @@ st.title('P1 - Student Records')
 
 #INSERT run once, then comment out
 
-students = [
+'''students = [
 
     {"name":"Ali Hassan", "email":"ali@uni.edu","age":20, "gpa":3.8},
 
@@ -34,7 +34,7 @@ enrollments = [
     {"student_id":ids["Lin wel"], "course": "Networks", "grade":"A"}, 
 ]
 
-db.table('enrollments').insert(enrollments).execute()
+db.table('enrollments').insert(enrollments).execute()'''
 
 #SELECT all
 
